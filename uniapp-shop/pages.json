@@ -1,0 +1,123 @@
+{
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "欢迎使用",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "资讯",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/supermarket/supermarket",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/contact/contact",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/photograph/photograph",
+			"style": {
+				"navigationBarTitleText": "实物照片",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "实物视频",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "components/goods-list/goods-list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/information-detail/information-detail",
+			"style": {
+				"navigationBarTitleText": "资讯",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/goods-detail/goods-detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "商城",
+		"navigationBarBackgroundColor": "#f0145a",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": { // 导航栏
+		"position": "bottom",
+		"selectedColor": "#f0145a", // 选中的字体颜色
+		"borderStyle": "white",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index", // 点击跳转的页面
+				"iconPath": "static/images/home.png", // 图标
+				"selectedIconPath": "static/images/home_select.png" // 选中时候的图标
+			},
+			{
+				"text": "资讯",
+				"pagePath": "pages/information/information", // 点击跳转的页面
+				"iconPath": "static/images/information.png", // 图标
+				"selectedIconPath": "static/images/information_select.png" // 选中时候的图标
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/cart/cart", // 点击跳转的页面
+				"iconPath": "static/images/cart.png", // 图标
+				"selectedIconPath": "static/images/cart_select.png" // 选中时候的图标
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/images/mine.png", // 图标
+				"selectedIconPath": "static/images/mine_select.png" // 选中时候的图标
+			}
+		]
+	}
+}
